@@ -1,0 +1,11 @@
+<div class="card">
+  <h2>Entrar</h2>
+  <form [formGroup]="form" (ngSubmit)="submit()">
+    <label>Email</label>
+    <input formControlName="email" type="email" />
+    <label>Senha</label>
+    <input formControlName="password" type="password" />
+    <button type="submit">Entrar</button>
+    <p *ngIf="error">{{ error }}</p>
+  </form>
+</div>

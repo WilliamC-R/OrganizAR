@@ -1,0 +1,8 @@
+<div class="card">
+  <h2>Relatórios</h2>
+  <div *ngIf="summary">
+    <p>Receitas: {{ summary.totals.income }}</p>
+    <p>Despesas: {{ summary.totals.expense }}</p>
+    <p>Saldo: {{ summary.totals.net }}</p>
+  </div>
+</div>

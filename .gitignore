@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+*.sqlite3
+node_modules/
+dist/
+coverage/
+.env.*
+.DS_Store
